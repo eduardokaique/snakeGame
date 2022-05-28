@@ -1,0 +1,23 @@
+{
+  "name": "snake-game",
+  "version": "1.0.0",
+  "description": "Implementação de game de jogo da cobrinha (com elementos multiplayer)",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "nodemon ./src/server.js",
+    "start": "node ./src/server.js"
+  },
+  "author": "Eduardo Kaique de Freitas",
+  "license": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.1",
+    "path": "^0.12.7",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.7.1"
+  }
+}
